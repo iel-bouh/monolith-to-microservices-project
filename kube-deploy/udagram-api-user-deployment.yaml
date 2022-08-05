@@ -17,8 +17,6 @@ spec:
       containers:
       - name: backend-user
         image: smailbou/udagram-api-user
-        ports:
-        - containerPort: 80
         env:
             - name: POSTGRES_HOST
               valueFrom:

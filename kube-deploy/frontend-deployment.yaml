@@ -19,7 +19,8 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: smailbou/udagram-frontend:v3
+        image: smailbou/udagram-frontend:v5
         imagePullPolicy: Always
         ports:
         - containerPort: 80
+        
